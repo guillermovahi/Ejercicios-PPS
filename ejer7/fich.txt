@@ -1,0 +1,2 @@
+title,album,duration,release,artist,type
+Black Hole Sun,Superunknown,05:06,1994,Soundgarden,Rock
