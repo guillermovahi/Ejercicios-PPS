@@ -1,2 +1,11 @@
 title,album,duration,release,artist,type
 Black Hole Sun,Superunknown,05:06,1994,Soundgarden,Rock
+Smells Like Teen Spirit,Nevermind,05:01,1991,Nirvana,Grunge
+Breed,Nevermind,03:03,1991,Nirvana,Grunge
+Lithium,Nevermind,04:17,1991,Nirvana,Grunge
+Once,Ten,03:51,1991,Pearl Jam,Grunge
+Even Flow,Ten,04:53,1991,Pearl Jam,Grunge
+Alive,Ten,05:40,1991,Pearl Jam,Grunge
+Jeremy,Ten,05:18,1991,Pearl Jam,Grunge
+Forty Six & 2,Aenima,06:04,1994,Tool,Metal Progresivo
+Lateralus,Lateralus,09:24,2001,Tool,Metal Progresivo
