@@ -1,0 +1,3 @@
+Nombre1 Apellido1 8
+Nombre2 Apellido2 2
+Nombre3 Apellido3 6
