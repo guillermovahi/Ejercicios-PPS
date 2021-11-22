@@ -22,8 +22,8 @@ void free_lista(lista_notas *ptr);
 int main(int argc, char *argv[])
 {	
 	char line[MaxLinea+1];
-	char *name = malloc(51);
-	char *surname = malloc(101);
+	char *name;
+	char *surname;
 	lista_notas *mi_lista = NULL;
 	int i, blank, grade;
 	FILE *archivo = fopen(argv[1], "r");
@@ -53,13 +53,11 @@ int main(int argc, char *argv[])
 		}
 	}
 	
-	/* free(name);
-	free(surname);
- */
+	
 	mostrar_lista(mi_lista);
 	free_lista(mi_lista);
 
-	system("leaks a.out");
+	//system("leaks a.out");
 	return 0;
 }
 
@@ -124,11 +122,9 @@ void free_lista(lista_notas *ptr)
 		aux = aux->siguiente;
 		free(aux2->nombre);
 		free(aux2->apellido);
-		//free(aux2->nota);
 		free(aux2);	
 	}
 }
-
 
 int get_grade(char *line)
 {
