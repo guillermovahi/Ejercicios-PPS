@@ -27,7 +27,7 @@ int main(void)
 		else
 			cadena[i++] = c;
 	}	
-	printf("\"%s\".",cadena);
+	printf("\"%s\".\n",cadena);
 
 	return 0;
 }

@@ -29,7 +29,4 @@ int main(int argc, char *argv[])
 		fclose(archivo);
 	}
 	return 0;
-
-
-
 }
