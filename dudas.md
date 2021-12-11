@@ -10,6 +10,7 @@ Añado una linea de salto final, y no sabría como arreglarlo con poco codigo.
 
 ### Ejer 7
 El problema de la memoria
+strdup
 
 ### Ejer 8
 Si las soluciones son imaginarias se debe guardar la parte real de la solución en (la variable apuntada por) px1 y la parte imaginaria en (la variable apuntada por) px2. Como las dos soluciones imaginarias son conjugadas, es suficiente con guardar la solución con parte imaginaria mayor que cero.

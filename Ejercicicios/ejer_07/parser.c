@@ -88,8 +88,8 @@ int		parser(FILE *file)
 		printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"); */
 		
 		
-		while(fgets(rest_lines, MaxLinea, file))
-		{
+		/* while(fgets(rest_lines, MaxLinea, file))
+		{ */
 				
 			line_examples = string_to_array2D(rest_lines, n_fields);
 			add_format(line_examples, "; ", n_fields);
@@ -110,7 +110,7 @@ int		parser(FILE *file)
 					printf("%s", field_names[i]);
 				i++;
 			}
-		}
+		
 		//printf("-----------------------------\n");
 	
 	
