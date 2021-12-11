@@ -11,8 +11,17 @@ int main(int argc, char *argv[])
 		printf("delreves: Invierte el contenido de las líneas de los ficheros (o de la entrada).");
 		return 1;
 	}
-
+	
+	char line[2048];
 	int i;
+	
+	if (argc < 2)
+	{
+		while(fgets(line,2048,stdin))
+			invert_and_print_line(line);
+		return 1;
+	}
+	
 
 	i = 0;
 	while(++i < argc)
@@ -27,7 +36,6 @@ int main(int argc, char *argv[])
 			return 1;
 		}
 
-		char line[2048];
 
 		while(fgets(line,2048,my_file))
 			invert_and_print_line(line);
