@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +12,7 @@ int main(int argc, char *argv[])
 
 	FILE *archivo;
 	char linea[80];
+	char linea_aux[80];
 
 	archivo = fopen(argv[1], "r");
 	if(archivo == NULL)
@@ -20,11 +22,22 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		while(feof(archivo) == 0)
+		while(fgets(linea, 81, archivo) != NULL)
 		{
-			fgets(linea, 81, archivo);
-			fputs(linea, stdout);
-			fprintf(stdout,"\n");
+			/* if(fgets(linea_aux, 81, archivo) != NULL)
+			{
+				fputs(linea, stdout);
+				if (strcmp(linea, "\n") != 0)
+					fprintf(stdout,"\n");
+				fputs(linea_aux, stdout);
+				if (strcmp(linea_aux, "\n") != 0)
+					fprintf(stdout,"\n");
+			}
+			else
+			{ */
+				fputs(linea, stdout);
+				if (strcmp(linea, "\n") != 0)
+					fprintf(stdout,"\n");
 		}
 		fclose(archivo);
 	}

@@ -1,6 +1,7 @@
 # Ejercicios PPS
 
-[] Aquí colgaré los ejercicios propuestos para prácticar la asignatura de Programación Para Sistemas en el curso 2021/2022.
+[X] Ejercicios propuestos para prácticar la asignatura en el curso 2021/2022.
 
-[] Y los exámenes prácticos de C resueltos
+[] Exámenes prácticos de C resueltos
 
+[X] Prácticas de cursos anteriores
